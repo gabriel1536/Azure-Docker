@@ -2,7 +2,7 @@
 
 Tutorial: https://medium.com/@gabriel1536/azure-functions-with-docker-creating-your-app-was-never-easier-5363067ee76
 
-    Don't forget npm install!
+    Don't forget to run npm install in the folder with package.json on!
 
 index(markov).js: http://{yourMachineIp}/api/OurLittleAzureFunction?filepath={filename} //file located on index.js folder
   
