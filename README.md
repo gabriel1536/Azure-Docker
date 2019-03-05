@@ -4,12 +4,12 @@ Tutorial: (todo medium)
 
 Don't forget npm install!
 
-index(markov).js: http:/{yourMachineIp}/api/OurLittleAzureFunction?filepath={filename} //file located on index.js folder
+index(markov).js: http://{yourMachineIp}/api/OurLittleAzureFunction?filepath={filename} //file located on index.js folder
   
-index(html).js: http:/{yourMachineIp}/api/OurLittleAzureFunction
+index(html).js: http://{yourMachineIp}/api/OurLittleAzureFunction
   
   
-index(getData).js: http:/{yourMachineIp}/api/OurLittleAzureFunction?name={tweetName}   
+index(getData).js: http://{yourMachineIp}/api/OurLittleAzureFunction?name={tweetName}   
   
     for getData you need to follow a few instructions denoted below:
   
