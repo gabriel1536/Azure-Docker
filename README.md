@@ -1,6 +1,6 @@
 # Azure-Docker
 
-Tutorial: (todo medium)
+Tutorial: https://medium.com/@gabriel1536/azure-functions-with-docker-creating-your-app-was-never-easier-5363067ee76
 
 Don't forget npm install!
 
