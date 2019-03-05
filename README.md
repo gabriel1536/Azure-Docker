@@ -15,10 +15,14 @@ You'll need a twitter account.
 
 Then you should register this account in https://developer.twitter.com/en/docs.html so you can these keys 
 
-  consumer_key: '<consumer_key>',
-  consumer_secret: '<consumer_secret>',
-  access_token: '<access_token>',
-  access_token_secret: '<access_token_secret>'
+  consumer_key: '<consumer_key>',  
+  
+  consumer_secret: '<consumer_secret>',  
+  
+  access_token: '<access_token>',  
+  
+  access_token_secret: '<access_token_secret>'  
+  
   
 That's it, now you are ready to use getData.
 
