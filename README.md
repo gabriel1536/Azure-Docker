@@ -9,7 +9,7 @@ index(markov).js: http://{yourMachineIp}/api/OurLittleAzureFunction?filepath={fi
 index(html).js: http://{yourMachineIp}/api/OurLittleAzureFunction
   
   
-index(getData).js: http://{yourMachineIp}/api/OurLittleAzureFunction?name={tweetName}   
+getData.js: node getData.js
   
     for getData you need to follow a few instructions denoted below:
   
@@ -24,6 +24,9 @@ Then you should register this account in https://developer.twitter.com/en/docs.h
      access_token: '<access_token>'
   
      access_token_secret: '<access_token_secret>'
+     
+
+You need to change the variable tname to whatever twitter tag you want to get data from!
   
   
 That's it, now you are ready to use getData.
