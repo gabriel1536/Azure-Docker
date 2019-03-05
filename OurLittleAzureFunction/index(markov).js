@@ -4,8 +4,6 @@ const Markov = require('markov-strings')
 
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
-    //const sarasa = require('index');
-
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
             headers: {
@@ -18,13 +16,13 @@ module.exports = async function (context, req) {
     else if (req.query.filepath || (req.body && req.body.filepath)) {
 
         const options = {
-            maxLength: 140,
-            minWords: 10,
-            minScore: 25
+            maxLength: 140, //max sentence length
+            minWords: 10,   //min word count in our sentence
+            minScore: 25    //markov's score (checkout markov-strings on npm doc)
         };
         let html = "";
 
-        let filepath = "sarasa.txt";
+        let filepath = "" + req.query.filepath;
 
         let base_text = fs.readFileSync(path.resolve(__dirname, filepath), 'utf8').split('\n');
 
