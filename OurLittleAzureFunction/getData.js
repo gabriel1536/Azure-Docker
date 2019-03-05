@@ -26,7 +26,7 @@ function getData() {
         screen_name: tname,
         count: 200, max_id: last_id - 101,
         exclude_replies: true,
-        include_rts: true,
+        include_rts: false,
         trim_user: true,
         tweet_mode: 'extended'
       }, function (err, tweets, response) {
